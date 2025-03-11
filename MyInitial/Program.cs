@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using Ticketing;
 
 namespace MyNameSpace
 {
@@ -15,7 +16,7 @@ namespace MyNameSpace
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JuiceBarForm());
+            Application.Run(new Ticketing.TicketsForm());
         }
     }
 }
